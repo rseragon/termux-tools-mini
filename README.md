@@ -2,6 +2,8 @@
 
 # tmux-mini.sh  v0.1 ---> v0.2
 
+# updater.sh. v0.3 ---> v1 [stable]
+
 This is my first git repo named termux-tools-mini for termux users it includes minimal told and packages needed for termux
 
 this install a basic requirements for termux and some hacking tools like Shellphish, hulk Ddos etc (more coming soon...)
@@ -22,4 +24,4 @@ to update just
 
 # $ bash updater.sh
 
-# updater.sh  v0.3---> v1
+
