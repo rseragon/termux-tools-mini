@@ -1,6 +1,6 @@
 # termux-tools-mini
 
-# tmux-mini.sh  v0.3 ---> v0.4
+# tmux-mini.sh  v0.4 ---> v0.5
 
 # updater.sh. v0.3 ---> v1 [stable]
 
