@@ -16,12 +16,11 @@ to use this
 
 # $ ./tmux-mini.sh
 
-
-I thank all the developers whose repos are there in my tool
-
-
-to update just 
+! to update just 
 
 # $ bash updater.sh
 
+
+
+I thank all the developers whose repos are there in my tool
 
