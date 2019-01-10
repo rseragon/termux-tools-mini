@@ -8,7 +8,7 @@ this install a basic requirements for termux and some hacking tools like Shellph
 
 to use this 
 
-# $ git clone https://github.com/rseragon007/termux-tools-mini
+# $ git clone https://github.com/rseragon007/termux-tools-mini.git
 
 # $ cd termux-tools-mini
 
