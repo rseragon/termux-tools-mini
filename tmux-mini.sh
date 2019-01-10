@@ -98,4 +98,4 @@ echo "IF YOU FIND ANY ERRORS FEEL FREE TO ASK ME"
 
 
 toilet -f mono9 -F metal BY
-toilet -f mono12 -F gay RSE007
+toilet -f mono9 -F gay RSE007
