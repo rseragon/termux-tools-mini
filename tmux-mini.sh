@@ -35,7 +35,7 @@ touch log.txt
 
 clear
 
-toilet -f mono12 -F metal TOOLS
+toilet -f mono9 -F metal TOOLS v0.4
 
 echo "WELCOME TO MY FIRST BASH FILE"
 
