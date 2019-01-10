@@ -1,6 +1,6 @@
 # termux-tools-mini
 
-# v0.1 ---> vo.2
+# v0.1 ---> v0.2
 
 This is my first git repo named termux-tools-mini for termux users it includes minimal told and packages needed for termux
 
