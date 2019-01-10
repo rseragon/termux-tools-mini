@@ -12,8 +12,8 @@ rm tmux-mini.sh
 
 figlet updateing
 
-wget https://github.com/rseragon007/termux-tools-mini/blob/master/tmux-mini.sh 
 
+wget https://github.com/rseragon007/termux-tools-mini/blob/master/tmux-mini.sh
 
 chmod +x tmux-mini.sh
 
