@@ -8,22 +8,18 @@ echo "press enter to continue"
 
 read
 
+rm tmux-mini.sh
+
 figlet updateing
 
-git clone https://github.com/rseragon007/termux-tools-mini.git
-
-rm termux-tool-mini.sh
-
-cd termux-tools-mini
+wget https://github.com/rseragon007/termux-tools-mini/blob/master/tmux-mini.sh 
 
 
-mv termux-tool-mini.sh ..
-
-rm -rf termux-tools-mini
+chmod +x tmux-mini.sh
 
 clear
 
 figlet updated
 
 toilet -f mono12 -F gay BY
-toilet -f mono12 -F metal RSE007
+toilet -f mono9 -F metal RSE007
