@@ -1,4 +1,7 @@
 # termux-tools-mini
+
+# v0.1 ---> vo.2
+
 This is my first git repo named termux-tools-mini for termux users it includes minimal told and packages needed for termux
 
 this install a basic requirements for termux and some hacking tools like Shellphish, hulk Ddos etc (more coming soon...)
