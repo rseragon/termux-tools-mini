@@ -66,6 +66,12 @@ figlet IG brute
 figlet hulk
 figlet LMUX
 
+mv hulk ..
+mv Lazymux ..
+mv cupp ..
+mv shellphish ..
+mv instainsane ..
+
 echo "type enter to continue"
 
 read 
