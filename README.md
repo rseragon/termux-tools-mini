@@ -9,7 +9,7 @@ to install this
 
 # $ cd termux-tools-mini
 
-# $ ./termux-tool-mini.sh
+# $ ./tmux-mini.sh
 
 
 I thank all the developers whose repos are there in my tool
