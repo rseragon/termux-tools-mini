@@ -20,6 +20,6 @@ I thank all the developers whose repos are there in my tool
 
 to update just 
 
-# bash updater.sh
+# $ bash updater.sh
 
 # updater.sh  v0.3---> v1
