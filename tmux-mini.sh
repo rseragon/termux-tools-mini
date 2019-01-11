@@ -31,6 +31,7 @@ echo "PRESS ENTER TO CONTINUE"
 
 read
 
+
 touch log.txt
 
 clear
@@ -59,11 +60,14 @@ git clone https://github.com/grafov/hulk.git
 
 git clone https://github.com/Gameye98/Lazymux
 
+git clone https://github.com/Rajkumrdusad/Tool-X.git
+
 echo "cloned REPOS"
 figlet PHISH
 figlet cupp
 figlet IG brute
 figlet hulk
+fitlet Tools-X
 figlet LMUX
 
 mv hulk ..
@@ -71,6 +75,7 @@ mv Lazymux ..
 mv cupp ..
 mv shellphish ..
 mv instainsane ..
+mv Tool-X ..
 
 echo "type enter to continue"
 
