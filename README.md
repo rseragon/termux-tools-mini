@@ -18,7 +18,7 @@ to use this
 
 ! to update just 
 
-# $ bash updater.sh
+# $ ./updater.sh
 
 
 
