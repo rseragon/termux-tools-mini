@@ -1,90 +1,90 @@
 #! /bin/bash
 
-apt-get update
-apt-get upgrade
-pkg install nano
-pkg install figlet
-pkg install toilet
-pkg install python
-pkg install python2
-pkg install apache2
-pkg install curl
-pkg install curl -y
-pkg install sl
-pkg install nano
-pkg install git
-pkg install cmatrix
-pkg install  php
-pkg install ncurses-utils
-pkg install tar
-pkg install openssh
-pkg install busybox
-apt-get install nmap
-
-figlet all pkgs
-
-pkg list-install
-
-figlet ^^ all pkgs ^^
-
-echo "PRESS ENTER TO CONTINUE"
-
-read
 
 
+echo
 touch log.txt
 
 clear
 
 toilet -f mono9 -F metal TOOLS
+toilet -f mono9 -F gay v0.7
 
 echo "WELCOME TO MY FIRST BASH FILE"
 
-echo "TYPE YOUR USERNAME [just like that]: "
-read name
+echo "TYPE YOUR REQ TOOL "
 
-echo "YOUR USERNAME IS :- $name "
+echo " [1] Shellphish "
+echo " [2] CUPP "
+echo " [3] Instainsane"
+echo " [4] Hulk-ddos "
+echo " [5] Lazymux "
+echo " [6] Tool-X "
+echo " [7] NMAP "
 
-echo " installed all needed DEPENDENCIES"
+echo "MORE COMING SOON"
 
-echo " cloning GIT repos"
+read -p 'TOOL NO.>' tool
 
+echo "SELECTED TOOL NUMBER :------  $tool "
+
+if [ $tool -eq 1 ]
+then
 figlet Github
 git clone https://github.com/thelinuxchoice/shellphish.git
-
-git clone https://github.com/thelinuxchoice/instainsane.git
-
-git clone https://github.com/Mebus/cupp.git
-
-git clone https://github.com/grafov/hulk.git
-
-git clone https://github.com/Gameye98/Lazymux
-
-git clone https://github.com/Rajkumrdusad/Tool-X.git
-
-echo "cloned REPOS"
-figlet PHISH
-figlet cupp
-figlet IG brute
-figlet hulk
-fitlet Tools-X
-figlet LMUX
-
-mv hulk ..
-mv Lazymux ..
-mv cupp ..
 mv shellphish ..
+fi
+
+if [ $tool -eq 2 ]
+then
+figlet Github
+git clone https://github.com/Mebus/cupp.git
+mv cupp ..
+fi
+
+if [ $tool -eq 3 ]
+then
+figlet Github
+git clone https://github.com/thelinuxchoice/instainsane.git
 mv instainsane ..
+fi
+
+if [ $tool -eq 4 ]
+then
+figlet Github
+git clone https://github.com/grafov/hulk.git
+mv hulk ..
+fi
+
+if [ $tool -eq 5 ]
+then 
+figlet Github
+git clone https://github.com/Gameye98/Lazymux
+mv Lazymux ..
+fi
+
+if [ $tool -eq 6 ]
+then
+figlet Github
+git clone https://github.com/Rajkumrdusad/Tool-X.git
 mv Tool-X ..
+fi
 
-echo "type enter to continue"
+if [ $tool -eq 7]
+then 
+apt-get update
+apt install nmap
+figlet NMAP
+fi
 
-read 
+if [ $tool -ge 8 ]
+then
 
-sl
+figlet wrong 
 
-pkg install tsu
-pkg install wget
+exit 
+fi
+
 
 clear
 
