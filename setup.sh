@@ -1,5 +1,5 @@
 #!/bin/bash
-
+clear
 figlet setup
 
 echo "Press enter to continue"
