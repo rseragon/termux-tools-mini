@@ -8,7 +8,7 @@ touch log.txt
 clear
 
 toilet -f mono9 -F metal TOOLS
-toilet -f mono9 -F gay v0.7
+toilet -f mono9 -F gay v1.0
 
 echo "WELCOME TO MY FIRST BASH FILE"
 
