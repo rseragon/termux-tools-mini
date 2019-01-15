@@ -1,10 +1,13 @@
 #! /bin/bash
-
+echo
+echo
 figlet setup
-
+echo
+echo
 echo "Press enter to continue"
+echo
 read
-
+echo
 pkg update
 pkg upgrade
 pkg install nano
