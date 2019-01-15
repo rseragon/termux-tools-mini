@@ -11,20 +11,28 @@ toilet -f mono9 -F metal TOOLS
 toilet -f mono9 -F gay v1.0
 
 echo "WELCOME TO MY FIRST BASH FILE"
-
+echo
 echo "TYPE YOUR REQ TOOL "
-
+echo
 echo " [1] Shellphish "
+echo
 echo " [2] CUPP "
+echo
 echo " [3] Instainsane"
+echo
 echo " [4] Hulk-ddos "
+echo
 echo " [5] Lazymux "
+echo
 echo " [6] Tool-X "
+echo
 echo " [7] NMAP "
-
+echo
 echo "MORE COMING SOON"
-
+echo
+echo
 read -p 'TOOL NO.>' tool
+clear
 
 echo "SELECTED TOOL NUMBER :------  $tool "
 
