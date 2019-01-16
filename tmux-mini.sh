@@ -32,6 +32,8 @@ echo -e " $yellow [6] $red Tool-X "
 echo
 echo -e " $yellow [7] $red NMAP "
 echo
+echo -e " $yellow [8] $red Automated SUDO {SU REQ}"
+echo
 echo -e "$green MORE COMING SOON"
 echo
 echo
@@ -95,7 +97,16 @@ apt install nmap
 figlet NMAP
 fi
 
-if [ $tool -ge 8 ]
+if [ $tool -eq 8 ]
+then
+figlet Gitlab
+wget https://gitlab.com/st42/termux-sudo/raw/master/sudo
+cat sudo > /data/data/com.termux/files/usr/bin/sudo
+chmod 700 /data/data/com.termux/files/usr/bin/sudo
+figlet SUDO
+fi
+
+if [ $tool -ge 9 ]
 then
 figlet wrong 
 exit 
@@ -109,20 +120,16 @@ echo -e "to contiue type $red yes"
 
 read ans
 
+if [ $ans -eq yes ]
+then
+rm log.txt
+fi
+
 rm log.txt
 
-
-figlet thk u
-
-figlet enjoy
-cd
-
-figlet BYE
-
+clear
 
 echo "IF YOU FIND ANY ERRORS FEEL FREE TO ASK ME"
-
-
 
 toilet -f mono12 -F metal BY
 toilet -f mono9 -F gay RSE007 
