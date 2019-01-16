@@ -12,7 +12,7 @@ clear
 
 toilet -f mono9 -F metal TOOLS
 sleep 1
-toilet -f mono9 -F gay v1.0
+toilet -f mono9 -F gay v2.0
 
 echo -e "$red WELCOME TO MY FIRST BASH FILE"
 echo
