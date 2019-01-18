@@ -148,10 +148,10 @@ mv kalinethunter ..
 figlet KALI
 echo
 echo 
-echo " $green USEAGE:- "
-echo " $red 1.go to home dir. $green COMMAND - cd "
-echo " $red 2.Run script. $green COMMAND - ./kalinethunter"
-echo " $red 3.after it finishes start kali with $green COMMAND - startkali"
+echo -e " $green USEAGE:- "
+echo -e " $red 1.go to home dir. $green COMMAND - cd "
+echo -e " $red 2.Run script. $green COMMAND - ./kalinethunter"
+echo -e " $red 3.after it finishes start kali with $green COMMAND - startkali"
 echo
 fi
 
