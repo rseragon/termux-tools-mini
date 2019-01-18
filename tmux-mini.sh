@@ -38,7 +38,7 @@ echo -e " $yellow [9] $red Hydra "
 echo
 echo -e " $yellow [10] $red ReconDog "
 echo
-echo -e " $yellos [11] $red SQLmap"
+echo -e " $yellow [11] $red SQLmap"
 echo
 echo -e " $yellow [12] $red Kali Nethunter os"
 echo
