@@ -1,5 +1,5 @@
 #! /bin/bash
-
+clear
 echo "Welcome to the"
 
 figlet updater
