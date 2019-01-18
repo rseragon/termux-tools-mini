@@ -5,8 +5,8 @@ red='\033[31m'
 green='\033[32m'
 white='\033[37m'
 
-echo
-touch log.txt
+echo "IF YOU FIND THIS FILE THAT MEANS YOU DID NOT CLEAR CACHE AFTER USING tmux-mini.sh OR YOU FACED AN ERROR WHILE DOING IT DO NOT REMOVE THIS FILE !!!!!" >> log.txt
+
 
 clear
 
