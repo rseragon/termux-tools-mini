@@ -32,7 +32,15 @@ echo -e " $yellow [6] $red Tool-X "
 echo
 echo -e " $yellow [7] $red NMAP "
 echo
-echo -e " $yellow [8] $red Automated SUDO {SU REQ}"
+echo -e " $yellow [8] $red Automated SUDO {SU REQ} "
+echo
+echo -e " $yellow [9] $red Hydra "
+echo
+echo -e " $yellow [10] $red ReconDog "
+echo
+echo -e " $yellos [11] $red SQLmap"
+echo
+echo -e " $yellow [12] $red Kali Nethunter os"
 echo
 echo -e "$green MORE COMING SOON"
 echo
@@ -92,6 +100,7 @@ fi
 
 if [ $tool -eq 7 ]
 then 
+figlet apt
 apt-get update
 apt install nmap
 figlet NMAP
@@ -106,7 +115,47 @@ chmod 700 /data/data/com.termux/files/usr/bin/sudo
 figlet SUDO
 fi
 
-if [ $tool -ge 9 ]
+if [ $tool -eq 9 ]
+then
+figlet pkg
+pkg update
+pkg install hydra
+figlet Hydra
+fi
+
+if [ $tool -eq 10 ]
+then 
+figlet Github
+git clone https://github.com/UltimateHackers/ReconDog.git
+mv ReconDog ..
+figlet ReconDog
+fi
+
+if [ $tool -eq 11 ]
+then 
+figlet Github
+git clone https://github.com/sqlmapproject/sqlmap.git
+mv sqlmap ..
+figlet SQLmap
+fi
+
+if [ $tool -eq 12 ]
+then 
+figlet CURL
+curl -LO https://raw.githubusercontent.com/Hax4us/Nethunter-In-Termux/master/kalinethunter
+chmod +x kalinethunter
+mv kalinethunter ..
+figlet KALI
+echo
+echo 
+echo " $green USEAGE:- "
+echo " $red 1.go to home dir. $green COMMAND - cd "
+echo " $red 2.Run script. $green COMMAND - ./kalinethunter"
+echo " $red 3.after it finishes start kali with $green COMMAND - startkali"
+echo
+fi
+
+if [ $tool -ge 13 ]
 then
 figlet wrong 
 exit 
