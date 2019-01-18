@@ -153,6 +153,8 @@ echo -e " $red 1.go to home dir. $green COMMAND - cd "
 echo -e " $red 2.Run script. $green COMMAND - ./kalinethunter"
 echo -e " $red 3.after it finishes start kali with $green COMMAND - startkali"
 echo
+echo -e " $yellow PRESS ENTER TO CONTIUE "
+read
 fi
 
 if [ $tool -ge 13 ]
