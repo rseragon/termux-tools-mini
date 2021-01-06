@@ -1,3 +1,6 @@
+
+# NOTE: This repo was made by a person with no programming knowledge, so will be archived for future reference.
+
 # termux-tools-mini
 
 # tmux-mini.sh  v1.0 ---> v2.0
