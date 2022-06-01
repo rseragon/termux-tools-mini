@@ -1,26 +1,26 @@
 
-# NOTE: This repo was made by a person with no programming knowledge, so will be archived for future reference.
+# This project has been abandoned and may not be updated in future
 
 # termux-tools-mini
 
-# tmux-mini.sh  v1.0 ---> v2.0
+# tmux-mini.sh v2.0
 
 
-This is my first git repo named termux-tools-mini for termux users it includes minimal told and packages needed for termux
+This repo is for termux users. It includes minimal tools and packages needed for termux.
 
-this install a basic requirements for termux and some hacking tools like Shellphish, hulk Ddos etc (more coming soon...)
+This install a basic requirements for termux and some hacking tools like Shellphish, hulk Ddos etc (more coming soon...)
 
 to use this 
 
-# $ git clone https://github.com/rseragon007/termux-tools-mini.git
+`$ git clone https://github.com/rseragon007/termux-tools-mini.git`
 
-# $ cd termux-tools-mini
+`$ cd termux-tools-mini`
 
-# $ ./tmux-mini.sh
+`$ ./tmux-mini.sh`
 
 ! to update just 
 
-# $ ./updater.sh
+`$ ./updater.sh`
 
 
 
